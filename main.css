@@ -1,0 +1,166 @@
+body{
+    margin:0;
+  }
+  .headerWrapper{
+    height: 45vh;
+    width: 100%;
+    background-color: darkred;
+  }
+  #logo{
+    font-size: 20vh;
+    color: white;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  #headerMenuItem{
+    display: inline;
+    color:white;
+  }
+
+  #headerMenu{
+   float: right;
+    color: white;
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    word-spacing: 3vh;
+  }
+
+  .blackBar{
+    width: 100%;
+    height: 3vh;
+    background-color: black;
+    margin-top: 12vh;
+  }
+  
+  .sortWrapper{
+    height:200vh;
+    width: 40%;
+    background-color:white;
+    display: table;
+    float: left;
+
+  }
+  .sortHeader1{
+    font-size: 7vh;
+    margin-left: 5vh;
+  }
+  .sortHeader2{
+    font-size: 4vh;
+    margin-left: 5vh;
+  }
+.styleList{
+text-align: center;
+list-style: none;
+font-size: 3vh;
+color: white;
+}
+#styleListItems{
+background-color: black;
+width: 50%;
+margin-left: 20%;
+}
+  
+  .mensWrapper{
+    height:200vh;
+    width:60%;
+    background-color:grey;
+    display: table-cell;
+    float: right;
+  }
+
+  .shoeBoxWrapper1{
+      display: table;
+      float: right;
+      margin-right: 15vh;
+      margin-left: -10vh;
+  }
+
+  .shoeBoxWrapper2{
+      display: table;
+      float: left;
+      margin-left: 15vh;
+      margin-right: -10vh;
+  }
+
+
+#shoePrice{
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+}
+
+  #shoeImages{      
+      height: 30vh;
+      width: 30vh;
+  }
+
+  #mensHeader{
+      font-size: 7vh;
+      margin-left: 5vh;
+      color: white;
+      outline-color: black;
+  }
+  #panel{
+    height: 50vh;
+    width: 30vh;
+    background-color: darkred;
+    margin-bottom: 10vh;
+  }
+  #shoeName{
+      text-align: center;
+      color: white;
+  }
+#buttonText{
+    margin-left: 8vh;
+    color: white;
+    background-color: black;
+    border-color: black;
+    text-align: center;
+    font-size: 2vh;
+}
+
+#boysSizeNumbers{
+border: solid black .5vh;
+height: 6vh;
+width: 7vh;
+background-color: black;
+margin-left: 1vh ;
+margin-right: 1vh ;
+font-size: 4vh;
+color: white;
+text-align: center;
+padding-top: 2vh;
+}
+
+#boysSizeBox{
+    display: inline-block;
+    
+    }
+
+#mensSizeBox{
+    display: inline-block;
+}
+.boysSizeRow{
+    margin-left: 4vh;
+}  
+.footerContentWrapper{
+     margin-top: 200vh;
+    height: 50vh;
+    width:100%;
+    background-color:black;
+    bottom: 0vh;
+  }
+  .footerMenuItem{
+   display: inline;
+   font-size: 5vh;
+   word-spacing: 5vh;
+   color: darkgrey;
+  }
+.footerMenu{
+    word-spacing: 10vh;
+    text-align: center;
+    padding-top: 10vh;
+}
